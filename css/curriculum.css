@@ -1,0 +1,53 @@
+
+/* container disposicion del Main */
+.background-container {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    box-sizing: border-box;
+    background-color:rgb(215, 221, 221);
+    justify-content: center;
+    background-image: url('../images/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.download {
+    box-sizing: border-box;
+    background-color: #929cd6;
+    color: white;
+    width: 450px;
+    height: 230px;
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.presentation {
+    justify-content: center;
+    width: auto;
+    height: 110px;
+    padding: 15px 40px 20px 60px;
+}
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.presentation h4 {
+    padding-bottom: 5px;
+}
+.curriculum {
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 15px 40px 30px 60px;
+}
+.curriculum p {
+    margin-bottom: 5px;
+}
+#download-CV {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+}

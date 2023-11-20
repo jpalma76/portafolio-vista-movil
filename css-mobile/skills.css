@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    padding: 0;
+    background-color: #181d33;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 81, 168);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 325px;
+    text-align: center;
+    margin-top: 30px;
+}
+.img-cert {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 220px;
+}
+.nombre-curso {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.grid-item:hover {
+    cursor: pointer;
+    width: 305px;
+    height: 299px;
+    .img-cert {
+        width: 284px;
+        height: 224px;
+    }
+}
